@@ -1,0 +1,38 @@
+
+
+#description-image {
+    /* Positioning */
+    float: left;
+    /* Box-model */
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  #large {
+    visibility: visible;
+}
+
+
+#small{
+    display: none;}
+}
+
+.small {
+    display: none;}
+
+@media (max-width:600px){
+    .small {
+        visibility: visible;
+    }
+    .large {
+        display: none;}
+    #small{
+        visibility: visible;
+    }
+    #large {
+        display: none;
+    }
+
+}
